@@ -1,0 +1,56 @@
+html
+{
+	font-family  :  sans-serif;
+}
+form
+{
+	position  :  relative;
+	width  :  820px;
+}
+dl
+{
+	margin  :  0;
+	padding  :  0;
+}
+dt , dd {
+	display  :  inline;
+	margin  :  0;
+	padding  :  0;
+}
+fieldset {
+	width  :  320px;
+}
+label , input {
+	display  :  inline-block;
+	width  :  120px;
+	margin  :  0;
+	padding  :  0;
+}
+input + ul , input + ul + ul
+{
+	display  :  none;
+	width  :  440px;
+	position  :  absolute;
+	right  :  0;
+}
+input + ul
+{
+	top  :  0;
+	height  :  auto;
+}
+input:focus + ul , input:focus + ul + ul
+{
+	display  :  block;
+}
+ul.voorwaarden
+{
+	background-color  :  rgba( 255 , 0 , 0 , .5 );
+}
+ul.voorbeelden
+{
+	background-color  :  rgba( 0 , 0 , 255 , .5 );
+}
+input[type="submit"] {
+	width  :  auto;
+	padding  :  0.5ex;
+}
